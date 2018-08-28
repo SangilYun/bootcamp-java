@@ -17,7 +17,6 @@ INDEX VERSION 1.130+/Users/yunsangil/Documents/computing/JAVA/.metadata/.plugins
 4225238468.index
 908372982.index
 935737556.index
-245677617.index
 1556062036.index
 4166542874.index
 2425607851.index
