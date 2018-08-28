@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<HBox xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
-</HBox>
 
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="248.0" layoutY="68.0" />
+      <PasswordField layoutX="248.0" layoutY="193.0" />
+      <Text layoutX="132.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="아이디" />
+      <Text layoutX="126.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="패스워드" />
+      <Button layoutX="55.0" layoutY="286.0" mnemonicParsing="false" text="로그인" />
+      <Button layoutX="243.0" layoutY="286.0" mnemonicParsing="false" text="취소" />
+      <Button layoutX="420.0" layoutY="286.0" mnemonicParsing="false" text="회원가입" />
+   </children>
+</AnchorPane>
