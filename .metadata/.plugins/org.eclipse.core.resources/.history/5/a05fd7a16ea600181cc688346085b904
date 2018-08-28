@@ -1,0 +1,10 @@
+package sec02.exam01_system_in_out;
+
+public class SystemOutExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

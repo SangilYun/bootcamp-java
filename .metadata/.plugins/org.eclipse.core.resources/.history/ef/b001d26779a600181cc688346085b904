@@ -1,0 +1,10 @@
+package sec03.exam02_file_input_stream;
+
+public class FileOutputStreamExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package sec_verify.exam01;
+
+import java.io.FileReader;
+
+public class FileViewer {
+
+	public static void main(String[] args) throws Exception{
+		 
+		FileReader fr = new FileReader("/Users/yunsangil/Desktop/test.txt");
+		int read;
+		
+		while((read = fr.read()) != -1) {
+			System.out.println("읽은 문자 : " + (char)read);
+		}
+
+		fr.close();
+	}
+
+}

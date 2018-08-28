@@ -1,0 +1,10 @@
+package sec01.exam03_reader_read;
+
+public class ReaderExample03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

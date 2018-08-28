@@ -1,0 +1,24 @@
+package sec_verify.exam11;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class BinaryCopy {
+
+	public static void main(String[] args) throws Exception{
+		BufferedReader br = new BufferedReader(new FileReader("/Users/yunsangil/Documents/computing/JAVA/Chap33 Input output stream/src/sec_verify/exam11/img.jpg"));
+		FileWriter fw = new FileWriter("/Users/yunsangil/Downloads/img_복사본.jpg");
+
+		String read;
+		String copy=null;
+		while((read = br.readLine())!=null) {
+			copy+=read;
+		}
+		fw.write(copy);
+		fw.flush();
+		fw.close();
+		br.close();
+	}
+
+}

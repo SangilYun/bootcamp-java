@@ -1,0 +1,10 @@
+package sec01.exam01_inputstream_read;
+
+public class ReadExample03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

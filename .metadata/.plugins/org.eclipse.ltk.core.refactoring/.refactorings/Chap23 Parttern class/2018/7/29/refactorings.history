@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;sec_verify01&apos; to &apos;Chap22 Arrays class/src/sec01_arrayCopy&apos;&#x0A;- Original project: &apos;Chap23 Parttern class&apos;&#x0A;- Destination element: &apos;Chap22 Arrays class/src/sec01_arrayCopy&apos;&#x0A;- Original element: &apos;Chap23 Parttern class/src/sec_verify01&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=Chap22 Arrays class/src&lt;sec01_arrayCopy" element1="/src&lt;sec_verify01" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1532054435545" version="1.0"/>
+</session>

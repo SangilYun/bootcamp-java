@@ -1,0 +1,14 @@
+package sec_verify.exam06;
+
+import java.io.FileWriter;
+
+public class UpperCharacter {
+	public static void main(String[] args) throws Exception{
+		FileWriter fw = new FileWriter("/Users/yunsangil/Downloads/test.txt");
+		fw.write("THIS IS JAVA PROGRAMMING.\n" + 
+				"저는 JAVA STUDY 중입니다.");
+		fw.flush();
+		fw.close();
+	}
+
+}

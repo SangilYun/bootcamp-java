@@ -1,0 +1,10 @@
+package sec04.exam04_bufferedReader;
+
+public class BufferedReaderExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

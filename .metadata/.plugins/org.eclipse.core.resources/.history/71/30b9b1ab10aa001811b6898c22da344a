@@ -1,0 +1,21 @@
+package JavaFXtutorial;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Drawing_A_Straight_Line extends Application{
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Group root = new Group();
+		Scene scene = new Scene(root,600,300);
+		primaryStage.setTitle("Drawing a Straight Line");
+		primaryStage.setScene(scene);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

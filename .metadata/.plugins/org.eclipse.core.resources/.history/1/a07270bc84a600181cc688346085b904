@@ -1,0 +1,21 @@
+package sec_verify.exam09;
+
+import java.io.File;
+
+public class FileDelete {
+
+	public static void main(String[] args) {
+		
+		String path = "/Users/yunsangil/Downloads";
+		String[] fileName;
+		File f = new File(path);
+		for(File each : f.listFiles()) {
+			if(f.isFile()) {
+				fileName = f.getName().split(".");
+				if(fileName[fileName.length-1].equals("txt")) {
+					System.out.println(f.getPath() + " 삭제 ");
+				}
+			}
+		}
+	}
+}

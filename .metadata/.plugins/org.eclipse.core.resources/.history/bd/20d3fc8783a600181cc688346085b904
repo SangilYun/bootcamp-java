@@ -1,0 +1,10 @@
+package sec_verify.exam09;
+
+public class FileDelete {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

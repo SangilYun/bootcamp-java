@@ -1,0 +1,10 @@
+package sec04.exam06_datainputstream_dataoutputstream;
+
+public class DataInputOutputStreamExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

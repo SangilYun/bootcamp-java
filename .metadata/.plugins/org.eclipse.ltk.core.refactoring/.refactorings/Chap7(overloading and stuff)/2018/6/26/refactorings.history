@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;sec01_exam_overloading&apos; to &apos;Chap7.variable_method/src/sec02_verify&apos;&#x0A;- Original project: &apos;Practice chap7(overloading and stuff)&apos;&#x0A;- Destination element: &apos;Chap7.variable_method/src/sec02_verify&apos;&#x0A;- Original element: &apos;Practice chap7(overloading and stuff)/src/sec01_exam_overloading&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=Chap7.variable_method/src&lt;sec02_verify" element1="/src&lt;sec01_exam_overloading" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1530164701834" version="1.0"/>
+</session>

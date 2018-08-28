@@ -1,0 +1,10 @@
+package sec_verify.exam04;
+
+public class HangulCopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

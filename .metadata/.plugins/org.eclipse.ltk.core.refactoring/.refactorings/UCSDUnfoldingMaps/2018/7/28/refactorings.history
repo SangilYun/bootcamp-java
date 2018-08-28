@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;guimodule.UnfoldingMap&apos; to &apos;LIfeExpectancy&apos;&#x0A;- Original project: &apos;UCSDUnfoldingMaps&apos;&#x0A;- Original element: &apos;guimodule.UnfoldingMap&apos;&#x0A;- Renamed element: &apos;guimodule.LIfeExpectancy&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UnfoldingMap&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;guimodule{UnfoldingMap.java[UnfoldingMap" matchStrategy="1" name="LIfeExpectancy" qualified="false" references="true" similarDeclarations="false" stamp="1531291552038" textual="false" version="1.0"/>
+</session>

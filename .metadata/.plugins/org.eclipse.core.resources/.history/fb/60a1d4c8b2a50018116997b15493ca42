@@ -1,0 +1,14 @@
+package sec_verify.exam05;
+
+import java.util.ArrayList;
+
+public class Score {
+	public static void main(String[] args) {
+	ArrayList<Student> record = new ArrayList<>();
+	int koreanTotal = 0;
+	int mathTotal = 0;
+	int englishTotal = 0;
+	
+	
+	}
+}

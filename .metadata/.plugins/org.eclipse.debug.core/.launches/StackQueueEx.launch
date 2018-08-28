@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Chap32 Collection Framework/src/sec01_stack_queue/example01_Stack/StackQueueEx.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="sec01_stack_queue.example01_Stack.StackQueueEx"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Chap32 Collection Framework"/>
+</launchConfiguration>

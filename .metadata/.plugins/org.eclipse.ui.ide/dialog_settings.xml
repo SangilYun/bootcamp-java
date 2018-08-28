@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/yunsangil/Documents/computing/JAVA/Chap03.Operator"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/Chap12.abstract"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/practice_chap03_operator"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/Practice chap7(overloading and stuff)"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/Chap12.Interface"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/Chap11.abstract"/>
+		<item value="/Users/yunsangil/Documents/computing/JAVA/chap01"/>
+		<item value="/Users/yunsangil/Desktop/computing/JAVA coursera/BlueJ/quiz material/perimeter_quiz"/>
+		<item value="/Users/yunsangil/Desktop/computing/JAVA/sec01_exam"/>
+		<item value="/Users/yunsangil/Desktop/computing/JAVA/chap01"/>
+		<item value="/Users/yunsangil/Desktop/computing/JAVA/practice_chap03_operator"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/yunsangil/Downloads/MOOCTextEditor"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA coursera/UCSDUnfoldingMaps"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap03.Operator"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap02.Variable"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/chap01"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/TestPrep"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap13.Interface"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap12.abstract"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap11.polymorphism"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap10.Overriding(Super)"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap9.inheritance"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Chap8.variable_method"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/Practice chap7(overloading and stuff)"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/sec01_exam"/>
+			<item value="/Users/yunsangil/Documents/computing/JAVA/practice_chap03_operator"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

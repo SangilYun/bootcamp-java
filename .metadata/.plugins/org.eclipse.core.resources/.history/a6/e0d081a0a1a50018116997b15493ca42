@@ -1,0 +1,20 @@
+package sec01.exam02_outputstream_write;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+public class WriteExample02 {
+
+	public static void main(String[] args) throws IOException{
+		//파일로부터 출력스트림을 생성하여 대입한다.(다형성)
+		OutputStream os = new FileOutputStream("/Users/yunsangil/Desktop/test.txt");//일반 예외 발생
+		
+		//"ABC가나다"라는 문자열에서 바이트 배열을 얻어낸다(인코딩)
+		byte[] data = "ABC가나다".getBytes();
+		
+
+
+	}
+
+}

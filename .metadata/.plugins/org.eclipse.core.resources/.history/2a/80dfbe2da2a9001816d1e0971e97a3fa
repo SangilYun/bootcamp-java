@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.geometry.*?>
+
+<!-- HBox 컨테이너 설정 시작 태그 -->
+<HBox xmlns:fx="http://javafx.com/fxml/1">
+		
+	<!--  Ctrl+Space를 누르면 intelligence(지능) 기능이 나온다.
+	속석이나 컨트롤 컨테이너 들 
+	주석 처리하고자 하는 곳을 선택하여 Ctrl+Shift+/를 누르면 
+	자동 주석 처리가 된다.  -->
+	
+	<padding>	<!-- 안쪽 여백 설정 -->
+		<Insets bottom="10" left="10" right="10" top="10"/>
+	</padding>
+	
+	<spacing>10</spacing> <!-- 컨트롤간의 간격 설정 -->
+	<!-- 내용(컨트롤)추가  -->
+	<children>
+		<TextField> <!-- TextField컨트롤 추가  -->
+			<prefWidth>200</prefWidth>
+		</TextField>
+		
+		<!-- <Button text="확인"/> -->
+		<Button text="확인"> <!-- Button컨트롤 추가 -->
+			<text>확인</text>
+		</Button> 
+	</children>
+</HBox>
+

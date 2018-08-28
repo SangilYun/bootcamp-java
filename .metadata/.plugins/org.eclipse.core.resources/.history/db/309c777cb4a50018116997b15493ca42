@@ -1,0 +1,22 @@
+package sec_verify.exam05;
+
+import java.util.ArrayList;
+
+public class Score {
+	ArrayList<Student> record = new ArrayList<>();
+	int koreanTotal = 0;
+	int mathTotal = 0;
+	int englishTotal = 0;
+	
+	public void add(Student st) {
+		this.record.add(st);
+	}
+	
+	public void getTotal() {
+		for(Student each : record) {
+			koreanTotal += each.korScore;
+			mathTotal += each.matScore;
+			englishTotal += each.engScore;
+		}
+	}
+}
