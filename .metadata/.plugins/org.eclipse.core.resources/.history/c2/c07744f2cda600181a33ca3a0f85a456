@@ -1,6 +1,0 @@
-package practice;
-
-public class BinaryTree_BFS<E> {
-	TreeNode<E> root;
-
-}

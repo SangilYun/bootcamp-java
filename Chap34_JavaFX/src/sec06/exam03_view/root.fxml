@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sec06.exam03_view.RootController">
+   <children>
+      <ListView fx:id="listView" layoutX="34.0" layoutY="100.0" prefHeight="200.0" prefWidth="120.0" />
+      <TableView fx:id="tableView" layoutX="184.0" layoutY="98.0" prefHeight="200.0" prefWidth="211.0">
+        <columns>
+          <TableColumn text="SmartPhone" />
+          <TableColumn text="image" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="172.0" layoutX="413.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="68.0" layoutY="62.0" text="ListView" />
+      <Label layoutX="237.0" layoutY="62.0" text="TableView" />
+      <Label layoutX="443.0" layoutY="62.0" text="ImageViewbel" />
+      <Button fx:id="btnOk" layoutX="289.0" layoutY="340.0" mnemonicParsing="false" text="Confirm" />
+      <Button fx:id="btnCancel" layoutX="382.0" layoutY="340.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>

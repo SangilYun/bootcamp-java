@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<!-- 그림은 가로와 세로의 비율이 있다.그림이 깨지지않도록 원본을 유지하기 위해서 preserveRatio를 true로 설정하면 된다. 
+	false로 설정하면 그림의 비율이 깨진다. -->
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1">
+	<ImageView preserveRatio="true" fitWidth="200" fitHeight="200">
+		<image>
+			<Image url = "@image/fruit1.jpg"/>
+		</image>
+	</ImageView>
+	
+	<ImageView preserveRatio="true" fitWidth="150" fitHeight="150">
+		<image>
+			<Image url = "@image/fruit2.jpg"/>
+		</image>
+	</ImageView>
+</StackPane>
+

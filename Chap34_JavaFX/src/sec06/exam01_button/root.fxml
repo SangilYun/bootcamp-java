@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="500"  prefHeight="150" 
+               fx:controller="sec06.exam01_button.RootController">   
+   <!-- 안쪽 여백 설정 -->
+   <padding>
+      <Insets topRightBottomLeft="10" />
+   </padding>      
+   
+   <center>
+      <!-- center의 컨트롤은 먼저 HBox로 잡고, 체크박스를 나열하기 위해 VBox를 사용, 
+           그리고 해당 이미지를 나타내기 위해 ImageView를 만들었다. -->
+      <HBox alignment="CENTER" prefWidth="200" prefHeight="100" spacing="10">
+         
+         <children>
+            <!-- 체크박스의 크기를 100,200으로 설정하고 체크박스의 간격을 20으로 줬다. -->
+            <VBox prefWidth="100" prefHeight="200" spacing="20" alignment="CENTER_LEFT" >
+               <children>                  
+                  <!-- 체크박스가 클릭이 되면 컨트롤러에서 이벤트가 처리될 수 있도록  
+                      id와 메서드명을 지정했다.-->
+                  <CheckBox fx:id="chk1" text="안경" onAction="#handleChkAction"/>
+                  <CheckBox fx:id="chk2" text="모자" onAction="#handleChkAction"/>            
+               </children>            
+            </VBox>
+            
+            <!-- Image를 나타내기 위해 설정 -->
+            <ImageView fx:id="chkImageView" fitWidth="100" fitHeight="100" 
+                     preserveRatio="true">
+               <image>
+                  <Image url="@images/geek.gif" />
+               </image>            
+            </ImageView>
+            
+            <!-- 구분선을 주기 위해 Separator를 사용하고 속성으로 수직, 길이는 200설정하였다. -->
+            <Separator orientation="VERTICAL"  prefHeight="200" />
+            
+            <!-- RadioButton을 만들기 위해 VBox컨테이너를 배치하여 200높이에 RadioButton의 간격을 
+                20픽셀로 배치한다 -->
+            <VBox prefWidth="150" prefHeight="200" spacing="20" alignment="CENTER_LEFT">
+               <!-- RadioButton은 통상그룹을 만들어 속성감시를 하므로 아래와 같이 객체를 정의하고 
+                   fx:id를 설정한다. -->
+               <fx:define>
+                  <!-- 통상 예외 발생 코드중 valid-type이 나오면, import가 안된 것이다. -->
+                  <ToggleGroup fx:id="group" /> 
+               </fx:define>
+               <children>
+                  <RadioButton text="Bubble차트" userData="BubbleChart.png" 
+                            toggleGroup="$group" />                  
+                  <!--
+                      RadioButton의 이름은 Bar차트 소속그룹은 group이고 selected는 
+                      true로써 보여질때 선택되어진다. 아울러, userData는 라디오버튼의
+                      속성감시를 통해 속성이 변하면 컨트롤러에서 사용되어지게 될 
+                      파일명이다.실제로는 UI상 나타나지는 않는다.
+                  --> 
+                  <RadioButton text="Bar차트" userData="BarChart.png"  
+                            toggleGroup="$group" selected="true"/>
+                  <RadioButton text="Area차트" userData="AreaChart.png"  
+                               toggleGroup="$group" />
+               </children>            
+            </VBox>            
+            <!-- Image를 나타내기 위해 설정 -->   
+            <ImageView fx:id="radioImageView" fitWidth="100" preserveRatio="true">
+               <image>
+                  <Image url="@images/BarChart.png"/>
+               </image>            
+            </ImageView>         
+         </children>
+      </HBox>   
+   </center>   
+   <!-- BorderPane의 bottom부분에 버튼을 배치를 하는데 그 버튼 이미지를 graphic이라는 setter로
+       이미지를 설정해준다. -->
+   <bottom>
+      <!-- bottom의 Button을 중앙정렬을 위해 Button에 명시적으로 BorderPane.alignment를 
+          지정했다.아울러, 버튼을 클릭시 이벤트 처리를 직접하기 위해 
+          onAction="#handleBtnExitAction"를 지정했다. -->
+      <Button BorderPane.alignment="CENTER" onAction="#handleBtnExitAction">
+         <graphic>
+            <ImageView >
+               <Image url="@images/exit.png"/>
+            </ImageView>
+         </graphic>
+         
+         <!-- bottom의 Button과 center의 간격을 주기 위해 
+             BorderPane.margin을 명시적으로 설정했다.-->
+         <BorderPane.margin>
+            <Insets top="20" />
+         </BorderPane.margin>                
+      </Button>
+   </bottom>   
+</BorderPane>

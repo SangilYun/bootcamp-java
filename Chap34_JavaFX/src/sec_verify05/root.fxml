@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sec_verify05.RootController">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="91.0" prefHeight="219.0" prefWidth="109.0" />
+      <Label layoutX="97.0" layoutY="61.0" text="Car" />
+      <Label layoutX="268.0" layoutY="61.0" text="Image" />
+      <ImageView fx:id="imageView" fitHeight="209.0" fitWidth="161.0" layoutX="206.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

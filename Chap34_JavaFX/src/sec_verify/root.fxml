@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" vgap="10"
+    prefHeight="300" prefWidth="300" gridLinesVisible="true">
+    <padding>
+    	<Insets topRightBottomLeft = "10" />
+    </padding>
+    
+    <Button text = "${'Num\nLock'}" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "0" GridPane.columnIndex = "0" />
+    <Button text = "/" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "0" GridPane.columnIndex = "1" />
+    <Button text = "*" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "0" GridPane.columnIndex = "2" />
+    <Button text = "-" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "0" GridPane.columnIndex = "3" />
+    	
+    <Button text = "7" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "1" GridPane.columnIndex = "0" />		
+    <Button text = "8" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "1" GridPane.columnIndex = "1" />
+    <Button text = "9" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "1" GridPane.columnIndex = "2" />		
+    <Button text = "+" prefHeight="150" prefWidth="70"
+    	GridPane.rowIndex = "1" GridPane.columnIndex = "3" GridPane.rowSpan="2"/>		
+    	
+    <Button text = "4" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "2" GridPane.columnIndex = "0"/>		
+    <Button text = "5" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "2" GridPane.columnIndex = "1"/>
+    <Button text = "6" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "2" GridPane.columnIndex = "2"/>	
+    
+    <Button text = "1" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "3" GridPane.columnIndex = "0"/>		
+    <Button text = "2" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "3" GridPane.columnIndex = "1"/>
+    <Button text = "3" prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "3" GridPane.columnIndex = "2"/>		
+    		
+    <Button text = "0" GridPane.columnSpan="2" prefWidth="150" prefHeight="70"
+    	GridPane.rowIndex = "4" GridPane.columnIndex = "0"  />
+    <Button text = "." prefHeight="70" prefWidth="70"
+    	GridPane.rowIndex = "4" GridPane.columnIndex = "2"/> 		
+    		
+    <Button text = "Enter" prefHeight="150" prefWidth="70"
+    	GridPane.rowIndex = "3" GridPane.columnIndex = "3" GridPane.rowSpan="2"/>		
+	
+</GridPane>
+

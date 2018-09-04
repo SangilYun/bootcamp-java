@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import java.lang.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <!-- 이미지의 경로(기준점이 자신의 파일이다. 즉, 상대경로가 된다.
+            @는 참조하겠다는 의미이다. -->
+            <Image url="@images/한지민.jpg" />
+         </image>
+      </ImageView>
+      
+      <!-- VBox컨테이너안에 HBox컨테이너가 컨트롤처럼 배치되는 경우다. -->
+      <HBox alignment="TOP_CENTER" prefHeight="43.0" prefWidth="194.0" spacing="20.0">
+         <children>
+            <Button text="한지민" />
+            <!-- HBox의 넓이 만큼 해주기 위해 HBox.hgrow를 INHERIT로 하지말고 ALWAYS로 바꾼뒤 MaxWidth를 maxValue로 설정해야 한다. -->
+            <Button text="다음">
+               <!-- 폭을 확장해 본다. -->
+               <HBox.hgrow>
+                  <Priority fx:constant="ALWAYS" />               
+               </HBox.hgrow>
+               <!-- 상수를 이용하여 폭을 넓게 잡아주고 있다. -->               
+               <maxWidth>                  
+                  <Double fx:constant="MAX_VALUE" />
+               </maxWidth>
+            </Button>         
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>   
+   </children>
+</VBox>

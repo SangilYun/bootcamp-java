@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.collections.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sec06.exam02_input.RootController">
+   <children>
+      <Label layoutX="42.0" layoutY="52.0" prefHeight="27.0" prefWidth="34.0" text="Title" />
+      <Label layoutX="35.0" layoutY="166.0" prefHeight="27.0" prefWidth="38.0" text="Public" />
+      <Label layoutX="31.0" layoutY="221.0" prefHeight="27.0" prefWidth="56.0" text="Contents" />
+      <Label layoutX="29.0" layoutY="105.0" prefHeight="27.0" prefWidth="60.0" text="Password" />
+      <Label layoutX="208.0" layoutY="166.0" prefHeight="27.0" prefWidth="67.0" text="ExpireDate" />
+      <TextField fx:id="textTitle" layoutX="117.0" layoutY="52.0" prefHeight="27.0" prefWidth="275.0" />
+      <ComboBox fx:id="comboPublic" layoutX="84.0" layoutY="166.0" prefHeight="7.0" prefWidth="99.0">
+	  	<items>
+			<FXCollections fx:factory="observableArrayList">
+				<String fx:value="Yes"/>
+				<String fx:value="no"/>
+			</FXCollections>
+		</items>
+	  </ComboBox>
+      <DatePicker fx:id="dateExit" layoutX="282.0" layoutY="166.0" prefHeight="27.0" prefWidth="116.0" />
+      <TextArea fx:id="textContent" layoutX="28.0" layoutY="258.0" prefHeight="98.0" prefWidth="392.0" />
+      <Button layoutX="253.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleBtnRegAction" text="Confirm" />
+      <Button layoutX="340.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleBtnCancelAction" text="Cancel" />
+      <PasswordField fx:id="textPassword" layoutX="117.0" layoutY="105.0" prefHeight="27.0" prefWidth="275.0" />
+   </children>
+</AnchorPane>

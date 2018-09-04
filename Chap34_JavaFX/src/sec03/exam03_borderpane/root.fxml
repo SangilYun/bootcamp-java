@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+
+<!-- 이 장부터는 직접 태그로 작성하여 태그에 좀 익숙해도록 한다. 태그를 사용하는 것에
+   익숙해질 필요가 있다. 그 이유는 사소한 부분의 수정이나 유지보수를 위해서는 태그를 볼 줄
+   알아야 수정이 가능한 것이다. 아울러, SceneBuilder는 우리가 원치 않는 태그들을 붙여주는 
+   것을 앞에서 보았을 것이다.
+   하여, SceceBuilder를 사용해서 해도 되겠지만, 일단은 태그에 익숙해지고 나서 SceceBuilder를
+   사용하도록 하자. -->
+   
+<!-- 여기서 pref의 의미를 알아볼 필요가 있다. pref는 '선호하다'라는 의미이다.
+   그래서 처음 로딩이 되면 웬만하면 pref의 크기로 보여주지만, 사용자가 윈도우창을
+   조절하게 되면 무시되어 진다는 것이다. -->
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <ToolBar>
+         <items>
+            <Button text = "파일전송" />
+            <Button text = "캡처" />
+            <Button text = "이모티콘" />
+            <Button text = "검색" />            
+         </items>
+      </ToolBar>
+   </top>
+   <center>
+      <TextArea />
+   </center>
+   
+   <bottom>
+      <BorderPane>
+         <center>
+            <TextField />
+         </center>
+         <right>
+            <Button text = "보내기" />
+         </right>
+      </BorderPane>
+   </bottom>
+</BorderPane>

@@ -1,5 +1,0 @@
-package jdbc_connection;
-
-public class StudentDao {
-
-}

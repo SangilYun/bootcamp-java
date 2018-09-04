@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Slider?>
+
+<BorderPane prefHeight="400" prefWidth="700" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sec05.exam01_property_listener.RootController">
+ 
+   <center>
+      <VBox alignment="CENTER">
+   <children>
+            <Label fx:id="label1" text="열심히하자">
+               <font>
+                  <Font size="0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" text="화이팅">
+               <font>
+                  <Font size="0" />
+               </font>
+            </Label>
+   </children>
+      </VBox>
+   </center>
+   <bottom>
+      <Slider fx:id="slider" />
+   </bottom>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>

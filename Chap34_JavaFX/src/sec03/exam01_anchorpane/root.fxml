@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<!-- Scene Builder를 이용하면 이전버전을 고려하여 네임스페이스가 정해진다.
+    불필요한 부분은 삭제해도 된다.
+    <AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns:fx="http://javafx..com/fxml/1"
+    xmlns="http://javafa.com/javafx/8">
+    AnchorPane을 컨테이너로 할때는 SceneBulider로 작업하는 것을 추천한다. 좌표값으로 설정하기 때문에 wysiwyg방식이 편하다.
+    이지윅(wysiwyg)프로그램에서 처리하는 문서의 모양이 영상표시장치에 보이는 대로 출력되는 시스템 -->
+    
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
    <children>
-      <TextField layoutX="248.0" layoutY="68.0" />
-      <PasswordField layoutX="248.0" layoutY="193.0" />
-      <Text layoutX="132.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="아이디" />
-      <Text layoutX="126.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="패스워드" />
-      <Button layoutX="55.0" layoutY="286.0" mnemonicParsing="false" text="로그인" />
-      <Button layoutX="243.0" layoutY="286.0" mnemonicParsing="false" text="취소" />
-      <Button layoutX="420.0" layoutY="286.0" mnemonicParsing="false" text="회원가입" />
+      <AnchorPane prefHeight="176.0" prefWidth="289.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="25.0" layoutY="35.0" text="아이디" />
+            <Label layoutX="25.0" layoutY="84.0" text="패스워드" />
+            <TextField layoutX="98.0" layoutY="29.0" />
+            <!-- 패스워드 텍스트필드 컨트롤을 사용하면 입력한 값이 노출되지 않는다. -->
+            <PasswordField layoutX="98.0" layoutY="79.0" />
+            <Button layoutX="39.0" layoutY="125.0" mnemonicParsing="false" text="로그인" />
+            <Button layoutX="120.0" layoutY="125.0" mnemonicParsing="false" text="취소" />
+            <Button layoutX="184.0" layoutY="125.0" mnemonicParsing="false" text="회원가입" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
